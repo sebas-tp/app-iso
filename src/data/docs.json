@@ -1,0 +1,660 @@
+[
+  {
+    "ID_COD": "PG-001-01",
+    "TITULO": "CONTROL DE DOCUMENTOS y REGISTROS",
+    "VERSION": 7,
+    "TIPO": "proceso",
+    "ESTADO": "mar-19"
+  },
+  {
+    "ID_COD": "FG-090-20",
+    "TITULO": "Listado de  procedimientos",
+    "VERSION": 10,
+    "TIPO": "registro",
+    "ESTADO": "abr-23"
+  },
+  {
+    "ID_COD": "FG-090-30",
+    "TITULO": "Listado de registros",
+    "VERSION": 11,
+    "TIPO": "registro",
+    "ESTADO": "ago-17"
+  },
+  {
+    "ID_COD": "FG-090-40",
+    "TITULO": "Listado de documentos externos",
+    "VERSION": 2,
+    "TIPO": "registro",
+    "ESTADO": "nov-15"
+  },
+  {
+    "ID_COD": "FG-090-50",
+    "TITULO": "Solicitud y planificación de cambio",
+    "VERSION": 0,
+    "TIPO": "registro",
+    "ESTADO": "jul-17"
+  },
+  {
+    "ID_COD": "PG-001-04",
+    "TITULO": "REVISIÓN POR LA DIRECCIÓN",
+    "VERSION": 4,
+    "TIPO": "proceso",
+    "ESTADO": "mar-19"
+  },
+  {
+    "ID_COD": "FG-001-04-01",
+    "TITULO": "Informe Revisión por la Dirección",
+    "VERSION": 2,
+    "TIPO": "registro",
+    "ESTADO": "ene-18"
+  },
+  {
+    "ID_COD": "PG-001-05",
+    "TITULO": "OBJETIVOS DE LA CALIDAD",
+    "VERSION": 5,
+    "TIPO": "proceso",
+    "ESTADO": "mar-19"
+  },
+  {
+    "ID_COD": "FG-001-05-01",
+    "TITULO": "Objetivos de Calidad",
+    "VERSION": 1,
+    "TIPO": "registro",
+    "ESTADO": "ene-18"
+  },
+  {
+    "ID_COD": "PG-001-06",
+    "TITULO": "AUDITORIAS INTERNAS",
+    "VERSION": 8,
+    "TIPO": "proceso",
+    "ESTADO": "feb-23"
+  },
+  {
+    "ID_COD": "FG-001-06-01",
+    "TITULO": "Plan Anual de Auditorias",
+    "VERSION": 4,
+    "TIPO": "registro",
+    "ESTADO": "abr-16"
+  },
+  {
+    "ID_COD": "FG-001-06-02",
+    "TITULO": "Informe de auditoria",
+    "VERSION": 1,
+    "TIPO": "registro",
+    "ESTADO": "abr-16"
+  },
+  {
+    "ID_COD": "FG-001-06-03",
+    "TITULO": "Listado de participantes y check list",
+    "VERSION": 1,
+    "TIPO": "registro",
+    "ESTADO": "abr-16"
+  },
+  {
+    "ID_COD": "PG-005-01",
+    "TITULO": "VENTAS",
+    "VERSION": 10,
+    "TIPO": "proceso",
+    "ESTADO": "may-20"
+  },
+  {
+    "ID_COD": "FG-005-03",
+    "TITULO": "Pedido de Cliente",
+    "VERSION": "",
+    "TIPO": "registro",
+    "ESTADO": ""
+  },
+  {
+    "ID_COD": "FG-005-01-01",
+    "TITULO": "Ficha Alta Cliente",
+    "VERSION": 2,
+    "TIPO": "registro",
+    "ESTADO": "may-24"
+  },
+  {
+    "ID_COD": "PG-005-90",
+    "TITULO": "SATISFACCION AL CLIENTE",
+    "VERSION": 9,
+    "TIPO": "proceso",
+    "ESTADO": "oct-24"
+  },
+  {
+    "ID_COD": "FG-050-11",
+    "TITULO": "Novedades por reclamos de clientes",
+    "VERSION": 2,
+    "TIPO": "registro",
+    "ESTADO": "may-17"
+  },
+  {
+    "ID_COD": "FG-050-11B",
+    "TITULO": "Satisfacción al cliente",
+    "VERSION": 3,
+    "TIPO": "registro",
+    "ESTADO": "mar-19"
+  },
+  {
+    "ID_COD": "PG-010-00",
+    "TITULO": "COMPRAS",
+    "VERSION": 11,
+    "TIPO": "proceso",
+    "ESTADO": "mar-25"
+  },
+  {
+    "ID_COD": "FG-010-02",
+    "TITULO": "Ficha Evaluación de proveedor",
+    "VERSION": 3,
+    "TIPO": "registro",
+    "ESTADO": "nov-18"
+  },
+  {
+    "ID_COD": "FG-010-03",
+    "TITULO": "Orden de Compra",
+    "VERSION": 0,
+    "TIPO": "registro",
+    "ESTADO": "ene-13"
+  },
+  {
+    "ID_COD": "FG-010-04",
+    "TITULO": "Reevaluación permanente del proveedor (archivo Excel)",
+    "VERSION": 0,
+    "TIPO": "registro",
+    "ESTADO": "feb-14"
+  },
+  {
+    "ID_COD": "PG-010-10",
+    "TITULO": "RECEPCION DE MATERIA PRIMA",
+    "VERSION": 14,
+    "TIPO": "proceso",
+    "ESTADO": "mar-25"
+  },
+  {
+    "ID_COD": "FG-010-13M",
+    "TITULO": "Informe de ensayo Materia Prima",
+    "VERSION": 0,
+    "TIPO": "registro",
+    "ESTADO": "may-14"
+  },
+  {
+    "ID_COD": "FG-010-20",
+    "TITULO": "Informe de rechazo de Materia Prima",
+    "VERSION": 1,
+    "TIPO": "registro",
+    "ESTADO": "mar-15"
+  },
+  {
+    "ID_COD": "FG-010-21",
+    "TITULO": "Reclamos al proveedor",
+    "VERSION": 1,
+    "TIPO": "registro",
+    "ESTADO": "ene-13"
+  },
+  {
+    "ID_COD": "FG-030-40",
+    "TITULO": "Numeración de Planos",
+    "VERSION": 1,
+    "TIPO": "registro",
+    "ESTADO": "mar-19"
+  },
+  {
+    "ID_COD": "FG-030-41",
+    "TITULO": "Numeración de Especificaciones Técnicas",
+    "VERSION": 3,
+    "TIPO": "registro",
+    "ESTADO": "jun-23"
+  },
+  {
+    "ID_COD": "FG-090-10",
+    "TITULO": "Especificación Técnica",
+    "VERSION": "non",
+    "TIPO": "registro",
+    "ESTADO": ""
+  },
+  {
+    "ID_COD": "PG-020-00",
+    "TITULO": "DISEÑO Y DESARROLLO",
+    "VERSION": 2,
+    "TIPO": "proceso",
+    "ESTADO": "nov-19"
+  },
+  {
+    "ID_COD": "FG-020-00",
+    "TITULO": "Ficha Diseño y Desarrollo",
+    "VERSION": 1,
+    "TIPO": "registro",
+    "ESTADO": "may-16"
+  },
+  {
+    "ID_COD": "PG-030-00",
+    "TITULO": "PRODUCCION",
+    "VERSION": 13,
+    "TIPO": "proceso",
+    "ESTADO": "jun-25"
+  },
+  {
+    "ID_COD": "FG-000-01-01",
+    "TITULO": "anexos flujogramas",
+    "VERSION": 0,
+    "TIPO": "registro",
+    "ESTADO": "abr-16"
+  },
+  {
+    "ID_COD": "FG-010-20",
+    "TITULO": "Informe de rechazo de materia prima",
+    "VERSION": 1,
+    "TIPO": "registro",
+    "ESTADO": "mar-15"
+  },
+  {
+    "ID_COD": "FG-030-01O",
+    "TITULO": "Orden de Producción (original)",
+    "VERSION": "tango",
+    "TIPO": "registro",
+    "ESTADO": ""
+  },
+  {
+    "ID_COD": "FG-030-01DR",
+    "TITULO": "Orden de Producción (REV)",
+    "VERSION": 5,
+    "TIPO": "registro",
+    "ESTADO": "ene-26"
+  },
+  {
+    "ID_COD": "FG-030-31",
+    "TITULO": "Análisis  de Operaciones",
+    "VERSION": "non",
+    "TIPO": "registro",
+    "ESTADO": ""
+  },
+  {
+    "ID_COD": "FG-030-02",
+    "TITULO": "Control de calidad en proceso",
+    "VERSION": 2,
+    "TIPO": "registro",
+    "ESTADO": "ene-26"
+  },
+  {
+    "ID_COD": "FG-030-30",
+    "TITULO": "Numeración de Análisis de Operaciones",
+    "VERSION": 0,
+    "TIPO": "registro",
+    "ESTADO": "abr-06"
+  },
+  {
+    "ID_COD": "FG-030-52",
+    "TITULO": "Estructura de producto",
+    "VERSION": 1,
+    "TIPO": "registro",
+    "ESTADO": "sep-12"
+  },
+  {
+    "ID_COD": "FG-030-53",
+    "TITULO": "Ficha técnica del producto",
+    "VERSION": 0,
+    "TIPO": "registro",
+    "ESTADO": "abr-06"
+  },
+  {
+    "ID_COD": "PG-030-01",
+    "TITULO": "PRODUCTOS NO CONFORME",
+    "VERSION": 6,
+    "TIPO": "proceso",
+    "ESTADO": "ene-26"
+  },
+  {
+    "ID_COD": "FG-030-02",
+    "TITULO": "Control de calidad en proceso",
+    "VERSION": 2,
+    "TIPO": "registro",
+    "ESTADO": "ene-26"
+  },
+  {
+    "ID_COD": "FG-030-06",
+    "TITULO": "Seguimiento de Calidad en Proceso",
+    "VERSION": 1,
+    "TIPO": "registro",
+    "ESTADO": "ene-23"
+  },
+  {
+    "ID_COD": "FG-030-53",
+    "TITULO": "Ficha técnica del producto",
+    "VERSION": 0,
+    "TIPO": "registro",
+    "ESTADO": "abr-06"
+  },
+  {
+    "ID_COD": "PG-030-02",
+    "TITULO": "PRODUCCION DE CINTA",
+    "VERSION": 0,
+    "TIPO": "proceso",
+    "ESTADO": "feb-23"
+  },
+  {
+    "ID_COD": "FG-030-01O",
+    "TITULO": "Orden de Producción (original)",
+    "VERSION": "tango",
+    "TIPO": "registro",
+    "ESTADO": ""
+  },
+  {
+    "ID_COD": "FG-030-01DC",
+    "TITULO": "Orden de Producción Cinta (REV)",
+    "VERSION": 0,
+    "TIPO": "registro",
+    "ESTADO": "abr-23"
+  },
+  {
+    "ID_COD": "FG-090-11",
+    "TITULO": "Ficha técnica de cinta",
+    "VERSION": "non",
+    "TIPO": "registro",
+    "ESTADO": ""
+  },
+  {
+    "ID_COD": "FG-030-31",
+    "TITULO": "Plano de Corte",
+    "VERSION": "non",
+    "TIPO": "registro",
+    "ESTADO": ""
+  },
+  {
+    "ID_COD": "FG-030-10",
+    "TITULO": "Tiempo de parada para anudar",
+    "VERSION": 1,
+    "TIPO": "registro",
+    "ESTADO": "ene-23"
+  },
+  {
+    "ID_COD": "PG-030-03",
+    "TITULO": "PRODUCCION DE ROPA TECNICA",
+    "VERSION": 1,
+    "TIPO": "proceso",
+    "ESTADO": "mar-25"
+  },
+  {
+    "ID_COD": "FG-030-00",
+    "TITULO": "Ficha de producto",
+    "VERSION": "non",
+    "TIPO": "registro",
+    "ESTADO": ""
+  },
+  {
+    "ID_COD": "FG-030-01-01",
+    "TITULO": "Tabla de talle",
+    "VERSION": 0,
+    "TIPO": "registro",
+    "ESTADO": "dic-24"
+  },
+  {
+    "ID_COD": "FG-030-01-02",
+    "TITULO": "Ficha de corte",
+    "VERSION": "non",
+    "TIPO": "registro",
+    "ESTADO": ""
+  },
+  {
+    "ID_COD": "FG-030-01O",
+    "TITULO": "Orden de Producción (original)",
+    "VERSION": "tango",
+    "TIPO": "registro",
+    "ESTADO": ""
+  },
+  {
+    "ID_COD": "FG-010-13A",
+    "TITULO": "Informe de método de ensayo instructivo interno TS021",
+    "VERSION": 1,
+    "TIPO": "registro",
+    "ESTADO": "jul-14"
+  },
+  {
+    "ID_COD": "PG-040-10",
+    "TITULO": "IDENTIFICACION Y TRAZABILIDAD",
+    "VERSION": 6,
+    "TIPO": "proceso",
+    "ESTADO": "jun-19"
+  },
+  {
+    "ID_COD": "PG-050-00",
+    "TITULO": "Proceso de Manipuleo de Mercadería",
+    "VERSION": 5,
+    "TIPO": "proceso",
+    "ESTADO": "ago-17"
+  },
+  {
+    "ID_COD": "PG-050-10",
+    "TITULO": "No Conformidades Acciones correctivas y preventivas",
+    "VERSION": 5,
+    "TIPO": "proceso",
+    "ESTADO": "jun-22"
+  },
+  {
+    "ID_COD": "FG-050-10",
+    "TITULO": "Informe de No Conformidad",
+    "VERSION": 3,
+    "TIPO": "registro",
+    "ESTADO": "ene-19"
+  },
+  {
+    "ID_COD": "FG-050-12",
+    "TITULO": "Seguimiento de No Conformidad",
+    "VERSION": 0,
+    "TIPO": "registro",
+    "ESTADO": "ene-06"
+  },
+  {
+    "ID_COD": "PG-060-00",
+    "TITULO": "INDICADOR DE GESTION",
+    "VERSION": 5,
+    "TIPO": "proceso",
+    "ESTADO": "ene-23"
+  },
+  {
+    "ID_COD": "FG-060-01",
+    "TITULO": "Indicador de Gestión",
+    "VERSION": 2,
+    "TIPO": "registro",
+    "ESTADO": "ene-23"
+  },
+  {
+    "ID_COD": "PG-070-00",
+    "TITULO": "CONTROL DE CALIDAD DE LOS PRODUCTOS TERMINADOS",
+    "VERSION": 4,
+    "TIPO": "proceso",
+    "ESTADO": "ago-17"
+  },
+  {
+    "ID_COD": "FG-010-13A",
+    "TITULO": "Informe de ensayo Sistema anticaidas Iram 3622-1",
+    "VERSION": 1,
+    "TIPO": "registro",
+    "ESTADO": "jul-14"
+  },
+  {
+    "ID_COD": "FG-010-13B",
+    "TITULO": "Informe de ensayo Sistema de sujeción  Iram 3622-2",
+    "VERSION": 1,
+    "TIPO": "registro",
+    "ESTADO": "jul-14"
+  },
+  {
+    "ID_COD": "FG-010-13C",
+    "TITULO": "Informe de ensayo Sistemas de sujec. de cargas Iram 5379",
+    "VERSION": 0,
+    "TIPO": "registro",
+    "ESTADO": "dic-26"
+  },
+  {
+    "ID_COD": "FG-010-13E",
+    "TITULO": "Dispositivos de anclaje-clase B- Lazo de anclaje Iram 3626",
+    "VERSION": 0,
+    "TIPO": "registro",
+    "ESTADO": "dic-13"
+  },
+  {
+    "ID_COD": "FG-010-13F",
+    "TITULO": "Dispositivos de anclaje-Línea de anclaje flexible",
+    "VERSION": 0,
+    "TIPO": "registro",
+    "ESTADO": "dic-13"
+  },
+  {
+    "ID_COD": "FG-030-02",
+    "TITULO": "Control de calidad en proceso",
+    "VERSION": 2,
+    "TIPO": "registro",
+    "ESTADO": "ene-26"
+  },
+  {
+    "ID_COD": "FG-030-03",
+    "TITULO": "Control línea montaje",
+    "VERSION": "n/a",
+    "TIPO": "registro",
+    "ESTADO": ""
+  },
+  {
+    "ID_COD": "FG-030-53",
+    "TITULO": "Ficha técnica del producto",
+    "VERSION": 0,
+    "TIPO": "registro",
+    "ESTADO": "abr-06"
+  },
+  {
+    "ID_COD": "PG-080-10",
+    "TITULO": "GESTION DE RECURSOS HUMANOS",
+    "VERSION": 5,
+    "TIPO": "proceso",
+    "ESTADO": "jun-23"
+  },
+  {
+    "ID_COD": "FG-080-10",
+    "TITULO": "Plan anual de capacitación",
+    "VERSION": 3,
+    "TIPO": "registro",
+    "ESTADO": "jun-22"
+  },
+  {
+    "ID_COD": "FG-080-11",
+    "TITULO": "Planilla de asistencia",
+    "VERSION": 1,
+    "TIPO": "registro",
+    "ESTADO": "abr-16"
+  },
+  {
+    "ID_COD": "FG-080-20",
+    "TITULO": "Registro de datos del Personal",
+    "VERSION": 0,
+    "TIPO": "registro",
+    "ESTADO": "mar-17"
+  },
+  {
+    "ID_COD": "FG-080-20R",
+    "TITULO": "Registro de datos del personal reverso",
+    "VERSION": 0,
+    "TIPO": "registro",
+    "ESTADO": "mar-17"
+  },
+  {
+    "ID_COD": "FG-080-30",
+    "TITULO": "Perfil de puesto",
+    "VERSION": 3,
+    "TIPO": "registro",
+    "ESTADO": "jun-22"
+  },
+  {
+    "ID_COD": "FG-080-50",
+    "TITULO": "Evaluación de Desempeño",
+    "VERSION": 0,
+    "TIPO": "registro",
+    "ESTADO": "mar-17"
+  },
+  {
+    "ID_COD": "FG-080-40",
+    "TITULO": "Inducción a la empresa",
+    "VERSION": 0,
+    "TIPO": "registro",
+    "ESTADO": "may-23"
+  },
+  {
+    "ID_COD": "PG-090-00",
+    "TITULO": "MANTENIMIENTO Y CALIBRACION",
+    "VERSION": 4,
+    "TIPO": "proceso",
+    "ESTADO": "dic-23"
+  },
+  {
+    "ID_COD": "FG-030-60",
+    "TITULO": "Listado de Maquinas TOP SAFE S.A.",
+    "VERSION": 6,
+    "TIPO": "registro",
+    "ESTADO": "mar-23"
+  },
+  {
+    "ID_COD": "FG-030-61",
+    "TITULO": "Ficha Mantenimiento",
+    "VERSION": 1,
+    "TIPO": "registro",
+    "ESTADO": "feb-17"
+  },
+  {
+    "ID_COD": "FG-030-62O",
+    "TITULO": "Plan de Mantenimiento operarios",
+    "VERSION": 0,
+    "TIPO": "registro",
+    "ESTADO": "mar-23"
+  },
+  {
+    "ID_COD": "FG-030-62R",
+    "TITULO": "Plan de Mantenimiento: Encargado de mantenimiento",
+    "VERSION": 0,
+    "TIPO": "registro",
+    "ESTADO": "mar-23"
+  },
+  {
+    "ID_COD": "FG-030-63",
+    "TITULO": "Ficha de Inspección Vehicular",
+    "VERSION": 0,
+    "TIPO": "registro",
+    "ESTADO": "mar-23"
+  },
+  {
+    "ID_COD": "FG-030-63R",
+    "TITULO": "Ficha de Informe de Inspección Vehicular",
+    "VERSION": 0,
+    "TIPO": "registro",
+    "ESTADO": "mar-23"
+  },
+  {
+    "ID_COD": "FG-030-64",
+    "TITULO": "Ficha de Inspección de Equipo de Izaje",
+    "VERSION": 0,
+    "TIPO": "registro",
+    "ESTADO": "mar-23"
+  },
+  {
+    "ID_COD": "FG-050-05",
+    "TITULO": "Registro de Elementos de Medición y Control",
+    "VERSION": 4,
+    "TIPO": "registro",
+    "ESTADO": "abr-16"
+  },
+  {
+    "ID_COD": "FG-030-68",
+    "TITULO": "Listado maquinas ZULA",
+    "VERSION": 0,
+    "TIPO": "registro",
+    "ESTADO": "mar-23"
+  },
+  {
+    "ID_COD": "PG-095-00",
+    "TITULO": "GESTION DE RIESGOS Y OPORTUNIDADES",
+    "VERSION": 3,
+    "TIPO": "proceso",
+    "ESTADO": "ago-23"
+  },
+  {
+    "ID_COD": "FG-095-20",
+    "TITULO": "Gestion de Riesgos y oportunidades",
+    "VERSION": 0,
+    "TIPO": "registro",
+    "ESTADO": "ago-23"
+  }
+]
