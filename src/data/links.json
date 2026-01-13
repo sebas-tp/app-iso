@@ -1,0 +1,377 @@
+[
+  {
+    "ID_PADRE": "PG-001-01",
+    "ID_HIJO": "FG-090-20",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-001-01",
+    "ID_HIJO": "FG-090-30",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-001-01",
+    "ID_HIJO": "FG-090-40",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-001-01",
+    "ID_HIJO": "FG-090-50",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-001-04",
+    "ID_HIJO": "FG-001-04-01",
+    "MOTIVO": "informes que genera el proceso"
+  },
+  {
+    "ID_PADRE": "PG-001-05",
+    "ID_HIJO": "FG-001-05-01",
+    "MOTIVO": "informes que genera el proceso"
+  },
+  {
+    "ID_PADRE": "PG-001-06",
+    "ID_HIJO": "FG-001-06-01",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-001-06",
+    "ID_HIJO": "FG-001-06-02",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-001-06",
+    "ID_HIJO": "FG-001-06-03",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-005-01",
+    "ID_HIJO": "FG-005-03",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-005-01",
+    "ID_HIJO": "FG-005-01-01",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-005-90",
+    "ID_HIJO": "FG-050-11",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-005-90",
+    "ID_HIJO": "FG-050-11B",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-010-00",
+    "ID_HIJO": "FG-010-02",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-010-00",
+    "ID_HIJO": "FG-010-03",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-010-00",
+    "ID_HIJO": "FG-010-04",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-010-10",
+    "ID_HIJO": "FG-010-13M",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-010-10",
+    "ID_HIJO": "FG-010-20",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-010-10",
+    "ID_HIJO": "FG-010-21",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-010-10",
+    "ID_HIJO": "FG-030-40",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-010-10",
+    "ID_HIJO": "FG-030-41",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-010-10",
+    "ID_HIJO": "FG-090-10",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-020-00",
+    "ID_HIJO": "FG-020-00",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-030-00",
+    "ID_HIJO": "FG-000-01-01",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-030-00",
+    "ID_HIJO": "FG-010-20",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-030-00",
+    "ID_HIJO": "FG-030-01O",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-030-00",
+    "ID_HIJO": "FG-030-01DR",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-030-00",
+    "ID_HIJO": "FG-030-31",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-030-00",
+    "ID_HIJO": "FG-030-02",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-030-00",
+    "ID_HIJO": "FG-030-30",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-030-00",
+    "ID_HIJO": "FG-030-52",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-030-00",
+    "ID_HIJO": "FG-030-53",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-030-01",
+    "ID_HIJO": "FG-030-02",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-030-01",
+    "ID_HIJO": "FG-030-06",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-030-01",
+    "ID_HIJO": "FG-030-53",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-030-02",
+    "ID_HIJO": "FG-030-01O",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-030-02",
+    "ID_HIJO": "FG-030-01DC",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-030-02",
+    "ID_HIJO": "FG-090-11",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-030-02",
+    "ID_HIJO": "FG-030-31",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-030-02",
+    "ID_HIJO": "FG-030-10",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-030-03",
+    "ID_HIJO": "FG-030-00",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-030-03",
+    "ID_HIJO": "FG-030-01-01",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-030-03",
+    "ID_HIJO": "FG-030-01-02",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-030-03",
+    "ID_HIJO": "FG-030-01O",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-030-03",
+    "ID_HIJO": "FG-010-13A",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-040-10",
+    "ID_HIJO": "todo en tango gestion",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-050-00",
+    "ID_HIJO": "no posee registros",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-050-10",
+    "ID_HIJO": "FG-050-10",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-050-10",
+    "ID_HIJO": "FG-050-12",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-060-00",
+    "ID_HIJO": "FG-060-01",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-070-00",
+    "ID_HIJO": "FG-010-13A",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-070-00",
+    "ID_HIJO": "FG-010-13B",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-070-00",
+    "ID_HIJO": "FG-010-13C",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-070-00",
+    "ID_HIJO": "FG-010-13E",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-070-00",
+    "ID_HIJO": "FG-010-13F",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-070-00",
+    "ID_HIJO": "FG-030-02",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-070-00",
+    "ID_HIJO": "FG-030-03",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-070-00",
+    "ID_HIJO": "FG-030-53",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-080-10",
+    "ID_HIJO": "FG-080-10",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-080-10",
+    "ID_HIJO": "FG-080-11",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-080-10",
+    "ID_HIJO": "FG-080-20",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-080-10",
+    "ID_HIJO": "FG-080-20R",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-080-10",
+    "ID_HIJO": "FG-080-30",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-080-10",
+    "ID_HIJO": "FG-080-50",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-080-10",
+    "ID_HIJO": "FG-080-40",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-090-00",
+    "ID_HIJO": "FG-030-60",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-090-00",
+    "ID_HIJO": "FG-030-61",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-090-00",
+    "ID_HIJO": "FG-030-62O",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-090-00",
+    "ID_HIJO": "FG-030-62R",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-090-00",
+    "ID_HIJO": "FG-030-63",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-090-00",
+    "ID_HIJO": "FG-030-63R",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-090-00",
+    "ID_HIJO": "FG-030-64",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-090-00",
+    "ID_HIJO": "FG-050-05",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-090-00",
+    "ID_HIJO": "FG-030-68",
+    "MOTIVO": ""
+  },
+  {
+    "ID_PADRE": "PG-095-00",
+    "ID_HIJO": "FG-095-20",
+    "MOTIVO": ""
+  }
+]
