@@ -7,12 +7,13 @@ import { QMSDocument, Dependency } from '../types';
 // --- PEGA AQUI TUS CLAVES DE FIREBASE ---
 // Si no las pones, la app se quedará cargando infinitamente.
 const firebaseConfig = {
-  apiKey: "TU_API_KEY_AQUI",
-  authDomain: "TU_PROYECTO.firebaseapp.com",
-  projectId: "TU_PROYECTO",
-  storageBucket: "TU_PROYECTO.appspot.com",
-  messagingSenderId: "...",
-  appId: "..."
+  apiKey: "AIzaSyDy9gII_my1BAuQqplnlzZJ9QTcr6ZP_Z0",
+  authDomain: "app-iso-f1d23.firebaseapp.com",
+  projectId: "app-iso-f1d23",
+  storageBucket: "app-iso-f1d23.firebasestorage.app",
+  messagingSenderId: "466988752550",
+  appId: "1:466988752550:web:ddd2a6dcf148f54fe71e67",
+  measurementId: "G-XS9R26PJMX"
 };
 
 const app = initializeApp(firebaseConfig);
