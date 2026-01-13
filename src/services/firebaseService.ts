@@ -57,55 +57,62 @@ export const getDocumentById = async (id: string): Promise<QMSDocument | undefin
   } catch (e) { return undefined; }
 };
 
-// --- 3. TRAZABILIDAD BIDIRECCIONAL (CEREBRO NUEVO) ---
-// Busca tanto hacía abajo (Hijos) como hacia arriba (Padres)
+// --- 3. TRAZABILIDAD BIDIRECCIONAL CON FILTRO DE DUPLICADOS ---
 export const getImpactedDocuments = async (currentDocId: string) => {
   try {
       const dependenciesRef = collection(db, 'dependencies');
       
-      // A. BÚSQUEDA AGUAS ABAJO (Downstream)
-      // "¿Qué documentos dependen de mí?" (Yo soy el PADRE)
+      // Consultas simultáneas (Padres e Hijos)
       const qDown = query(dependenciesRef, where("ID_PADRE", "==", currentDocId));
-      const snapDown = await getDocs(qDown);
-      
-      // B. BÚSQUEDA AGUAS ARRIBA (Upstream)
-      // "¿De quién dependo yo?" (Yo soy el HIJO)
       const qUp = query(dependenciesRef, where("ID_HIJO", "==", currentDocId));
-      const snapUp = await getDocs(qUp);
+      
+      const [snapDown, snapUp] = await Promise.all([getDocs(qDown), getDocs(qUp)]);
 
-      const results = [];
+      // USAMOS UN MAPA PARA EVITAR DUPLICADOS
+      // La clave será el ID_DOC para que no se repita en la lista visual
+      const uniqueResults = new Map<string, any>();
 
-      // Procesar HIJOS (Documentos que yo impacto -> SALEN EN ROJO/AMBAR)
+      // A. Procesar HIJOS (Impacto hacia abajo)
       for (const d of snapDown.docs) {
         const dep = d.data() as Dependency;
-        // Buscamos los datos del HIJO
-        const docRef = doc(db, 'documents', dep.ID_HIJO);
+        const targetId = dep.ID_HIJO;
+        
+        // Si ya lo procesamos, saltamos al siguiente
+        if (uniqueResults.has(targetId)) continue;
+
+        const docRef = doc(db, 'documents', targetId);
         const docSnap = await getDoc(docRef);
         if (docSnap.exists()) {
-            results.push({
+            uniqueResults.set(targetId, {
                 doc: { id: docSnap.id, ...docSnap.data() } as QMSDocument,
                 dep: dep,
-                relation: 'HIJO' // Etiqueta para saber la dirección
+                relation: 'HIJO'
             });
         }
       }
 
-      // Procesar PADRES (Documentos que me mandan -> SALEN EN AZUL)
+      // B. Procesar PADRES (Impacto hacia arriba / Origen)
       for (const d of snapUp.docs) {
         const dep = d.data() as Dependency;
-        // Buscamos los datos del PADRE
-        const docRef = doc(db, 'documents', dep.ID_PADRE);
+        const targetId = dep.ID_PADRE;
+
+        // Si ya lo procesamos, saltamos
+        if (uniqueResults.has(targetId)) continue;
+
+        const docRef = doc(db, 'documents', targetId);
         const docSnap = await getDoc(docRef);
         if (docSnap.exists()) {
-            results.push({
+            uniqueResults.set(targetId, {
                 doc: { id: docSnap.id, ...docSnap.data() } as QMSDocument,
                 dep: dep,
-                relation: 'PADRE' // Etiqueta para saber la dirección
+                relation: 'PADRE'
             });
         }
       }
 
-      return results;
+      // Convertimos el Mapa a Array para que React pueda mostrarlo
+      return Array.from(uniqueResults.values());
+
   } catch (e) { 
       console.error(e); 
       return []; 
